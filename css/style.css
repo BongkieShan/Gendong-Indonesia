@@ -1,0 +1,279 @@
+body{
+	font-family: "Montserrat","Open Sans","Lato", sans-serif;
+}
+h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	color: white;
+}
+.nav1 {
+	background-color: #3498DB;
+	border-color: transparent;
+	height: auto;
+}
+
+.nav1 .navbar-brand {
+	color: white;
+}
+
+.nav1 .navbar-nav > li > a {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: white;
+	letter-spacing: 2px;
+}
+	.brand {
+		padding: 15px;
+	}
+		.logo {
+			width: 150px;
+			height: auto;
+		}
+	.who {
+		float: right;
+		margin-right: 15px;
+	}
+
+
+.headerwrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #3498DB;
+	margin-top: -20px;
+	padding-top: 50px;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+	.callout p {
+		color: #fff;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 400;
+	}
+
+	.buttons {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  overflow: hidden;
+	  padding: 15px 25px;
+	  cursor: pointer;
+	  -webkit-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+	  -webkit-transition: all 60ms ease-in-out;
+	  transition: all 60ms ease-in-out;
+	  text-align: center;
+	  white-space: nowrap;
+	  text-decoration: none !important;
+	  text-transform: none;
+	  text-transform: capitalize;
+	  color: #fff;
+	  border: 0 none;
+	  border-radius: 4px;
+	  font-size: 13px;
+	  font-weight: 500;
+	  line-height: 1.3;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+	  -webkit-box-pack: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  -webkit-box-align: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  -webkit-box-flex: 0;
+	      -ms-flex: 0 0 160px;
+	          flex: 0 0 160px;
+	  box-shadow: 2px 5px 10px rgba(22, 22, 22, 0.1);
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		letter-spacing: 2px;
+		font-size: 20px;
+	}
+	.buttons:hover {
+	  -webkit-transition: all 60ms ease;
+	  transition: all 60ms ease;
+	  opacity: .85;
+	}
+	.buttons:active {
+	  -webkit-transition: all 60ms ease;
+	  transition: all 60ms ease;
+	  opacity: .75;
+	}
+	.buttons:focus {
+	  outline: 1px dotted #959595;
+	  outline-offset: -4px;
+	}
+	.buttons.-green {
+	  color: #FFFFFF;
+	  background: #3dd28d;
+	}
+
+
+
+	.tri {
+		background-color: #1781BC;
+	}
+		.calls {
+			margin-top: 15px;
+		}
+			.p1-3{
+				margin-bottom: 15px;
+				border-right: 5px solid #fff;
+				padding: 0px;
+			}
+				.p1-3sx{
+					margin-bottom: 15px;
+				}
+				.p1-3s {
+					border-right: 5px solid #fff;
+					margin-bottom: 10px;
+				}
+				.p1-3x {
+					margin-bottom: 10px;
+				}
+
+			.p2-3{
+				margin-bottom: 15px;
+				border-right: 5px solid #fff;
+				padding: 0px;
+			}
+				.p2-3sx{
+					margin-bottom: 15px;
+				}
+				.p2-3s{
+					border-right: 5px solid #fff;
+					margin-bottom: 10px;
+				}
+				.p2-3x {
+					margin-bottom: 10px;
+				}
+
+			.p3-3{
+				margin-bottom: 15px;
+				padding: 0px;
+			}
+				.p3-3s {
+					margin-bottom: 10px;
+				}
+				.p3-3x {
+					margin-bottom: 10px;
+				}
+
+				.txt1 {
+					text-align: left;
+					font-size: 14px;
+					margin-top: 25px;
+					margin-bottom: 0px;
+					color: #fff;
+					font-family: "Montserrat", sans-serif;
+					font-weight: 300;
+				}
+					.txt1x {
+						text-align: center;
+						font-size: 14px;
+						margin-top: 25px;
+						margin-bottom: 0px;
+						color: #fff;
+						font-family: "Montserrat", sans-serif;
+						font-weight: 300;
+					}
+				.txt2 {
+					text-align: left;
+					font-size: 24px;
+					margin-bottom: 0px;
+					color: #fff;
+					font-family: "Open Sans", sans-serif;
+					font-weight: 700;
+				}
+					.txt2x {
+						text-align: center;
+						font-size: 24px;
+						margin-bottom: 0px;
+						color: #fff;
+						font-family: "Open Sans", sans-serif;
+						font-weight: 700;
+					}
+
+
+.vedeo {
+	background-color: #FF1744;
+	min-height: 500px;
+}
+
+.article {
+	background-color: #FFAB40;
+	min-height: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+			/* Several different images */
+			.bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
+			.bg-two {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
+			.bg-three {background-image: url(https://media.timeout.com/images/101484105/image.jpg);}
+			.bg-four {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg);}
+			.bg-five {background-image: url(http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc);}
+			.bg-six {background-image: url(http://blog.whitepages.com/wp-content/uploads/2015/04/san-franc.jpg);}
+
+/* --------------------------------- */
+/* MEALS */
+/* --------------------------------- */
+.meals{
+	padding: 0;
+}
+
+.meals-preview {
+	list-style: none;
+	width: 100%;
+}
+
+.meals-preview li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meal-photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.meal-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+	transform: scale(1.15);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+	 transform: scale(1.03);
+	 -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+	 opacity: 1;
+}
+
+
+
+.event {
+	background-color: #55B672;
+	min-height: 500px;
+}
