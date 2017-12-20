@@ -6,8 +6,8 @@
 	<title>Gendong Indonesia</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="css/scrolling-nav.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700,600,400,300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
@@ -24,12 +24,12 @@
 					<img src="img/gendong.png" alt="brand" class="logo">
 				</a>
 				<ul class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">
-					<li><a href="#" class="who">Siapa Kami?</a></li>
+					<li class="nav-item"><a href="#" class="who">Siapa Kami?</a></li>
 				</ul>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<ul class="nav navbar-nav navbar-right hidden-xs">
-				<li><a href="#" class="">Siapa Kami?</a></li>
+				<li><a href="#gendong" class="nav-link js-scroll-trigger">Siapa Kami?</a></li>
 			</ul>
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -214,7 +214,7 @@
 	<div class="container-fluid vedeo">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 m-auto">
+				<div class="under-vid col-md-8 col-md-offset-2 m-auto">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Carousel indicators -->
 				<ol class="carousel-indicators">
@@ -242,10 +242,12 @@
 					
 				</a>
 			</div>
+			<div class="txt-vid">
 			<h3 class="text-center">#DongengDong</h3>
 			<p class="text-center">Kumpulan video mendongeng dari para pendongeng yang bergabung dalam komunitas kami</p>
 			<p class="text-center">Nantikan video kami setiap Jum’at malam di layar youtube
-			mu!^^</p>	
+			mu!^^</p>
+			</div>
 		</div>
 			</div>
 		</div>
@@ -253,7 +255,7 @@
 	<!-- End Video Slider -->
 
 	<!-- About & Gallery -->
-	<div class="container-fluid article">
+	<div class="container-fluid article" id="gendong">
 		<div class="container article-middle">
 			<div class="row">
 				<div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 article-text">
@@ -392,8 +394,8 @@
 	<!-- End Footer -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
-	<!-- <script src="js/script.js"></script> -->
+	<script src="js/scrolling-nav.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
