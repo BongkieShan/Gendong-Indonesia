@@ -52,6 +52,7 @@ ul{
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	background-color: #3498DB;
 	margin-top: -20px;
+	margin-bottom: -100px;
 	padding-top: 135px;
 	background-attachment: relative;
 	background-position: center center;
@@ -236,6 +237,7 @@ ul{
 
 
 .vedeo {
+	padding-top: -200px;
 	background-color: #FF1744;
 	width: 100%;
 	min-height: 645px;
@@ -568,9 +570,6 @@ ul{
 .txt-vid{
 	padding-top: 20px;
 }
-.under-vid{
-	padding-top: 30px;
-}
 
 /* Carousel */
 iframe{
@@ -579,7 +578,7 @@ iframe{
 	border: 7px solid #f4f4f4;
 }
 .carousel {
-	margin-top: 30px;
+	margin-top: 60px;
 	position: relative;
 }
 .carousel:before, .carousel:after {
